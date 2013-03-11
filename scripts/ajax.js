@@ -136,20 +136,20 @@ function result_graph_success(response) {
 	    width: '100%',
 	    //	    items: [{
 	    items: ['->',{
-		    icon:'./img/icon/icons/rss.png',
+		    icon:'../../../img/icon/icons/rss.png',
 		    id: 'DL_EM',
 		    handler: function() {
 			//console.log(model_name);
 			window.location.href='http://10.1.4.84/gem/neo/downloader.cgi?model='+model_name.model;
 		    }
 		},{
-		    icon:'./img/icon/icons/bullet_disk.png',
+		    icon:'../../../img/icon/icons/bullet_disk.png',
 		    id: 'DL_result',
                     handler: function() {
 			window.location.href='http://10.1.4.84/gem/neo/downloader_result.cgi?session_ID='+session_ID;
 		    }
 		},{
-		    icon:'./img/icon/icons/application_cascade.png',
+		    icon:'../../../img/icon/icons/application_cascade.png',
 		    id: 'separateGraph',
 		    handler: function(){
 			//			console.log(resultJSON[0].Data.length);
